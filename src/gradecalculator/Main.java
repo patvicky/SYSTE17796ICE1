@@ -55,22 +55,7 @@ public class Main {
         
         System.out.println("\nAvregae of student's grades is: " +one.calAvg(grades));
         System.out.println("\nMaximum grade that student has Achieved is: " +one.calMax(grades));
-        
-        
-        
-      
-    
-        
-        
-       
-        
-      
-    
-    
-        
-       
-        
-       
+          
     }
     
 }
