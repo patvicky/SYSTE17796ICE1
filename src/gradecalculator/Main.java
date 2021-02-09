@@ -12,7 +12,10 @@ public class Main {
            int i ;
            for(i = 0; i < array.length; i++)
            {
-               total += array[i];
+               if(array[i] > 0)
+                    total += array[i];
+               else
+                   System.out.println("\n"+array[i]+ " is negleted, as it is negative ");
            }
            return (total / i);
         }
